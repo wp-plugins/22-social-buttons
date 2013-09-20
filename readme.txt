@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-With this plugin you can set cool 22 social buttons
+With this plugin you can easy set cool 22 social buttons
 
 == Description ==
 

@@ -2,7 +2,7 @@
 /*
 Plugin Name: 22 Social Buttons
 Plugin URI: http://wordpress.org/plugins/
-Description: Get one of 22 cool social buttons with few clicks
+Description: Get one of 22 cool social buttons with few clicks!
 Author: sAlex
 Author URI: http://profiles.wordpress.org/salexiam
 Version: 1.0
