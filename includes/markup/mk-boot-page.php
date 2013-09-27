@@ -97,49 +97,4 @@
 		<div><a href="#" class="picasa socialBtn" <?php echo $lk ?>>Picasa photo album</a></div>
 		<div><a href="#" class="gowalla socialBtn" <?php echo $lk ?>>Follow me on Gowalla</a></div>
 	</div>
-
-	<!--form action="" method="POST" class="form-horizontal">
-		<input type="hidden" name="enabled" value="<?php echo $option["cursor_enabled"] ?>" />
-		<input type="hidden" name="cursor" value="<?php echo (empty($option["cursor"])?$cursors[0]:$option["cursor"]) ?>" />
-		<input type="hidden" name="cursor_id" value="<?php echo $option["cursor_id"] ?>" />
-		<div class="control-group">
-			<label class="control-label">Enable Cursor:</label>
-			<div class="controls">
-				<div class="btn-group all-special onoff" data-toggle="buttons-radio">
-					<button type="button" class="btn btn-default <?php print((!$option["cursor_enabled"])?'active btn-danger':''); ?> btn-off" data-value="small">
-						Disable
-					</button>
-					<button type="button" class="btn btn-default <?php print(($option["cursor_enabled"])?'active btn-success':''); ?> btn-on" data-value="medium">
-						Enable
-					</button>
-				</div>
-			</div>
-		</div>
-		<div class="control-group">
-			<label class="control-label">Unique Cursor:</label>
-			<div class="controls">
-				<div class="btn-group cursors"  data-toggle="buttons-radio" style="position: relative;">
-					<iframe  frameborder="no" allowtransparency="yes" scrolling="no" id="unlock-frame" src="//commondatastorage.googleapis.com/other_salex/fb_iframe_ucursor.html?r_url=<?php echo urlencode(admin_url('admin.php')."?page=unique-cursor&SOCIAL_BUTTONS_WP_unlock"); ?>" width="56" height="44" style="position: absolute; top: -9999px; left: 0; z-index: 999"></iframe>
-					<?php foreach ($cursors as $key => $value) { ?>
-						<?php if(($option['locked'] && $key < 8) || !$option['locked']) { ?>
-						<button type="button" class="btn btn-default" data-value="<?php echo $key ?>">
-							<div style="width: 30px; height: 30px"><img src="<?php echo SOCIAL_BUTTONS_WP_URL ?>images/<?php echo $value; ?>"/></div>
-						</button>
-						<?php } else {?>
-							<button type="button" class="btn btn-default" data-value="locked">
-								
-								<div style="width: 30px; height: 30px"><img src="<?php echo SOCIAL_BUTTONS_WP_URL ?>images/<?php echo $value; ?>"/></div>
-							</button>
-						<?php }?>
-					<?php } ?>
-				</div><br />
-				<iframe allowtransparency="yes" scrolling="no" frameborder="no" src="//commondatastorage.googleapis.com/other_salex/fb_iframe_ucursor_updated.html" width="400" height="25" style="margin-top: 15px;"></iframe>
-			</div>
-		</div>
-		<div class="form-actions">
-			<button type="submit" class="btn btn-danger license-key-register" data-loading-text="Checking...">
-				Save
-			</button>
-		</div>
-	</form-->
 </div>
