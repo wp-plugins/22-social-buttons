@@ -9,7 +9,7 @@
 		update_option('SOCIAL_BUTTONS_WP', $option);
 	}
 	
-	if(isset($_GET['social_buttons_unlock'])){
+	if(isset($_GET['social_buttons_unlock_finish'])){
 		$option['locked'] = false;
 		update_option('SOCIAL_BUTTONS_WP', $option);
 	}
@@ -20,9 +20,14 @@
 	<h2><img src="<?php echo SOCIAL_BUTTONS_WP_URL ?>images/logo.png" height="48" width="199" /> <!--a style="float: right" target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[title]=<?php echo urlencode('Unique Cursor - Free Premium WP plugin') ?>&p[summary]=<?php echo urlencode('You can make your Wordpress site more unique! ') ?>&p[url]=<?php echo urlencode('http://wordpress.org/plugins/unique-cursor/') ?>&p[images][0]=<?php echo urlencode('http://commondatastorage.googleapis.com/other_salex/fb-share-pic1.png') ?>" class="joinFB"><img src="<?php echo SOCIAL_BUTTONS_WP_URL ?>images/fb-like.gif" /></a--></h2>
 	
 	
-	<?php if(isset($_GET['social_buttons_unlock'])){ ?>
+	<?php if(isset($_GET['social_buttons_unlock_finish'])){ ?>
 	<div class="update-nag">
 		<h3>Unlocked Successfully! Enjoy!</h3>
+	</div>
+	<?php } ?>
+	<?php if(isset($_GET['social_buttons_unlock'])){ ?>
+	<div class="update-nag">
+		<iframe  frameborder="no" allowtransparency="yes" scrolling="no" src="//commondatastorage.googleapis.com/other_salex/fb_iframe_usocial_like____.html?r_url=<?php echo urlencode(admin_url('admin.php')."?page=social-buttons-wp&social_buttons_unlock_finish"); ?>" width="100%" height="130" style=""></iframe>
 	</div>
 	<?php } ?>
 	
