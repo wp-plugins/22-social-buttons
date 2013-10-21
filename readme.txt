@@ -16,7 +16,7 @@ Just choose a button, set title and url and get code - that's it! Try it now!
 
 = 22 social buttons =
 
-All you need usefull buttons in one plugin!
+All you need usefull buttons in one plugin!!
 
 == Installation ==
 
