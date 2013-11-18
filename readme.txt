@@ -12,7 +12,7 @@ With this plugin you can easy set cool 22 social buttons
 
 == Description ==
 
-Just choose a button, set title and url and get code - that's it! Try it now!
+Just choose a button, set title and url and get code - that's it! Try it now! (3,500 downloads. Thank you!)
 
 = 22 social buttons =
 
