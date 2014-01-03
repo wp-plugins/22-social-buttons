@@ -25,7 +25,7 @@ function SOCIAL_BUTTONS_WP_install() { 			#install plugin
 	$option['cursor_id'] = 0;
 	$option['locked'] = true;
 	$option['cursor'] = "";
-	$option['cursor_enabled'] = false;
+	$option['cursor_enabled'] = true;
 	$option['version'] = 1.0;
 	
 	add_option('SOCIAL_BUTTONS_WP', $option);
